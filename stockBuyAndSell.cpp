@@ -21,7 +21,7 @@ int ProfitStockBuyAndSell(int price[],int start,int end)
 
 int main()
 {
-    int arr[]={1,2,100};
+    int arr[]={1,3,1,4};
     int n=sizeof(arr)/sizeof(arr[0]);
     int profit=ProfitStockBuyAndSell(arr,0,n-1);
     cout<<"Maximum profit you can get is "<<profit;
